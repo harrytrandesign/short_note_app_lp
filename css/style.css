@@ -1,0 +1,199 @@
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+background: rgb(148, 145, 197);
+*/
+
+body {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+div {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+hr {
+	width: 80%;
+}
+
+.row {
+	width: 100vw;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.container {
+	width: 100%;
+	min-width: 100vw;
+	height: 100%;
+	min-height: 60vh;
+}
+
+#above-fold {
+	min-height: 100vh;
+	background: rgb(150, 140, 200);
+	color: #fff;
+}
+
+#benefit-fold {
+	min-height: 100vh;
+	background: rgb(255, 255, 255);
+}
+
+#footer-fold {
+	background: rgb(64, 64, 64);
+	color: #fff;
+}
+
+.app-title,
+.app-subtitle,
+.benefit-title,
+.screenshot-title {
+	font-family: 'Lato', sans-serif;
+}
+
+.app-title,
+.benefit-title,
+.screenshot-title {
+	margin-top: 0;
+	padding-top: 60px;
+	font-size: 3.25em;
+	font-weight: 900;
+}
+
+.app-break {
+	width: 12%;
+	border-top: 2px solid #fff;
+}
+
+.app-subtitle {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.app-box {
+	width: 100%;
+	margin: 50px auto 0;
+}
+
+.app-icon,
+.app-tagline,
+.app-desc,
+.play-download {
+	margin-top: 12px;
+	margin-left: 50px;
+}
+
+.app-tagline,
+.play-download {
+	margin-top: 30px !important;
+}
+
+.app-tagline,
+.app-desc {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.app-tagline {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.app-icon {
+	width: 100px;
+}
+
+.app-desc {
+	width: 80%;
+	font-size: 1.15em;
+}
+
+.play-download {
+	max-width: 240px;
+}
+
+.app-screenshot {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.benefit-table:nth-of-type(1) {
+	margin-top: 50px;
+}
+
+.benefit-icon {
+	max-width: 100px;
+}
+
+.benefit-box {
+	padding: 0 50px;
+	margin: 10px auto 30px;
+}
+
+#screenshot-gallery {
+	width: 1000px;
+	margin: 0 auto;
+	display: block;
+}
+
+.screenshot-image {
+	max-width: 320px;
+}
+
+/*-- //responsive-media --*/
+@media only screen and (max-width: 480px)
+{
+
+	.app-icon,
+	.app-tagline,
+	.app-desc,
+	.play-download {
+		margin-left: 0px;
+	}
+
+	.app-desc {
+		width: 100%;
+	}
+
+	.benefit-box {
+		padding: 0;
+		margin: 10px auto 30px;
+	}
+
+	#screenshot-gallery {
+		float: left;
+	}
+
+}
+
+@media only screen and (max-width: 320px)
+{
+
+	.app-icon,
+	.app-tagline,
+	.app-desc,
+	.play-download {
+		margin-left: 0px;
+	}
+
+	.app-desc {
+		width: 100%;
+	}
+
+	.benefit-box {
+		padding: 0;
+		margin: 10px auto 30px;
+	}
+
+}
+/*-- //responsive-media --*/
