@@ -53,6 +53,7 @@ p {
 #footer-fold {
 	background: rgb(64, 64, 64);
 	color: #fff;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .app-title,
@@ -148,6 +149,49 @@ p {
 
 .screenshot-image {
 	max-width: 320px;
+}
+
+.about-us-title,
+.contact-us-title {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.about-us-desc {
+	font-size: 1em;
+}
+
+.contact-list {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+.footer-copyright {
+	margin-top: 75px;
+	margin-bottom: 0 !important;
+	padding-bottom: 12px !important;
+	font-size: 0.9em;
+	font-weight: 700;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+	max-width: 400px;
+	min-height: 80vh;
+	margin: 0 auto;
+}
+.item:nth-child(1) {
+	max-height: 360px;
+}
+.item:nth-child(2) {
+	max-height: 360px;
+}
+.item:nth-child(3) {
+	max-height: 360px;
 }
 
 /*-- //responsive-media --*/
